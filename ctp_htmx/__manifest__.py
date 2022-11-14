@@ -7,35 +7,35 @@
 ###################################################################################
 
 {
-    'name': 'htmx in Odoo',
-    'version': '16.0.0.0.1',
-    'summary': """ 
+    "name": "htmx in Odoo",
+    "version": "16.0.0.0.1",
+    "summary": """ 
             Install htmx in Odoo Frontend
             .""",
-    'description': """ 
+    "description": """ 
             Install htmx in Odoo Frontend
             .""",
-    'author': 'Cybernetics Plus Co., Ltd.',
-    'website': 'https://www.cybernetics.plus',
-    'live_test_url': 'https://www.cybernetics.plus',
-    'images': ['static/description/banner.gif'],
-    'category': 'Website',
-    'license': 'AGPL-3',
-    'installable': True,
-    'application': True,
-    'auto_install': False,
-    'contributors': [
-        'Developer <dev@cybernetics.plus>',
+    "author": "Cybernetics+",
+    "website": "https://www.cybernetics.plus",
+    "live_test_url": "https://www.cybernetics.plus",
+    "images": ["static/description/banner.gif"],
+    "category": "Website",
+    "license": "AGPL-3",
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+    "contributors": [
+        "Developer <dev@cybernetics.plus>",
     ],
-    'depends': [
-        'website',
+    "depends": [
+        "website",
     ],
-    'assets': {
-        'web.assets_qweb': [
-            '/ctp_htmx/static/src/js/htmx.min.js',
+    "assets": {
+        "web.assets_qweb": [
+            "/ctp_htmx/static/src/js/htmx.min.js",
         ],
-        'web.assets_frontend': [
-            '/ctp_htmx/static/src/js/htmx.min.js',
+        "web.assets_frontend": [
+            "/ctp_htmx/static/src/js/htmx.min.js",
         ],
     },
 }
